@@ -66,19 +66,19 @@
                 class="rounded-3xl rounded-tr-[200px] order-first md:order-1">
         </section>
         <section class="mx-6 my-16 md:mx-16 md:my-32 text-grayText">
-            <h2 class="mb-4 text-gray-400">MY SKILLS</h2>
-            <p>
+            <h2 class="mb-4 text-gray-400 text-xl">MY SKILLS</h2>
+            <p class="text-2xl md:text-4xl">
                 I've picked up some cool skills along the way, and I'm excited to share them with you.
             </p>
-            <p>Check out what I can do below!
+            <p class="text-2xl md:text-4xl">Check out what I can do below!
             </p>
-            <div class="flex flex-col md:flex-row gap-4 mt-10 md:mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 md:mt-20">
                 <div class=" rounded-xl bg-gray-700 p-5">
                     <img src="./img/Frame 299.png" alt="">
-                    <p class="mt-10 py-3 border-t border-t-logo text-2xl font-bold">
+                    <h3 class="mt-10 py-3 border-t border-t-logo text-2xl font-bold">
                         Working knowledge
-                    </p>
-                    <ul class="list-none">
+                    </h3>
+                    <ul class="list-none text-sm">
                         <li>- Semantic HTML5</li>
                         <li>- Flexbox</li>
                         <li>- Markdown</li>
@@ -92,9 +92,9 @@
                 </div>
                 <div class="rounded-xl bg-gray-700 p-5">
                     <img src="./img/globe.png" alt="">
-                    <p class="mt-10 py-3 border-t border-t-logo text-2xl font-bold">
+                    <h3 class="mt-10 py-3 border-t border-t-logo text-2xl font-bold">
                         Know something about
-                    </p>
+                    </h3>
                     <ul class="list-none">
                         <li>- JavaScript ES6 + features</li>
                         <li>- CSS animation</li>
@@ -107,9 +107,9 @@
                 </div>
                 <div class="rounded-xl bg-gray-700 p-5">
                     <img src="./img/hexagon.png" alt="">
-                    <p class="mt-10 py-3 border-t border-t-logo text-2xl font-bold">
+                    <h3 class="mt-10 py-3 border-t border-t-logo text-2xl font-bold">
                         Want to learn
-                    </p>
+                    </h3>
                     <ul class="list-none">
                         <li>- React</li>
                         <li>- Node</li>
@@ -122,6 +122,14 @@
                     </ul>
                 </div>
             </div>
+        </section>
+        <section id="projects" class="px-6 md:px-16 py-14 md:py-28">
+            <h2 class="text-gray-400 text-xl font-bold mb-4">RECENT PROJECTS</h2>
+            <p class="text-white text-2xl md:text-4xl mb-10 md:mb-20">
+                Since diving into frontend development in 2023, I've brought a range of projects to life. Here's a
+                snapshot of my accomplishments so far.
+            </p>
+            <div class="repositories--js"></div>
         </section>
     </main>
     <script defer src="js/main.js" type="module"></script>
