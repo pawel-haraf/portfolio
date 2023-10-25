@@ -56,7 +56,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
                     </div>
                 </div>
             `
-			if (description !== null) {
+			if (description) {
 				repositoriesContainer.insertAdjacentHTML('beforeend', element)
 			}
 		}
