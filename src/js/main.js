@@ -44,7 +44,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
                         <div class="flex flex-col md:flex-row gap-4 text-base whitespace-nowrap">
                             <a href="${homepage}"
                                 class="flex gap-2 bg-bgBody w-40 md:w-auto px-5 py-4 rounded-xl text-logo md:text-xl font-bold" target="_blank" rel="noopener noreferrer">
-                                <img src="${demo} alt="">
+                                <img src="${demo}" alt="">
                                 <p>View demo</p>
                             </a>
                             <a href="${html_url}"
